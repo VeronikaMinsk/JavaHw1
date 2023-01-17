@@ -13,10 +13,10 @@ public class Hw1 {
 
      
         // Посчитать и сохранить в n номер старшего значащего бита выпавшего числа
-        int task2 = i;
+        int hb = i;
         int n = 0;
-        for (int j = 0; task2 > 0; j++){
-            task2 >>= 1;
+        for (int j = 0; hb > 0; j++){
+            hb >>= 1;
             n = j;
         }
         System.out.println(String.format("Номер сташего бита = %s",n));
