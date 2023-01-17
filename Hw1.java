@@ -33,7 +33,7 @@ public class Hw1 {
             }
             i++;
         }
-        System.out.println("Массив кратных n чисел в диапазоне от i до константы Short.MAX_VALUE = 32767 равен: \n"+ Arrays.toString(m1));
+        System.out.println("Массив кратных n чисел в диапазоне от i до константы Short.MAX_VALUE = 32768 равен: \n"+ Arrays.toString(m1));
     } 
         // решение задачи 4
     static void secondArray(int i, int n) {
@@ -50,6 +50,6 @@ public class Hw1 {
             }
             min++;
         }
-        System.out.println("Массив кратных n чисел в диапазоне от i до константы Short.MIN_VALUE = -32767 равен: \n"+ Arrays.toString(m2));
+        System.out.println("Массив кратных n чисел в диапазоне от i до константы Short.MIN_VALUE = -32768 равен: \n"+ Arrays.toString(m2));
     } 
 }
